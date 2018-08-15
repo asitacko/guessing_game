@@ -6,6 +6,8 @@ pipeline {
                 echo "check1"
                 sh "curl https://sh.rustup.rs -sSf >> ../rust.sh"
                 echo "check2"
+                sh "chmod 555 ../rust.sh"
+                echo "chmod"
                 sh "../rust.sh -y"
                 ech0 "check22"
                 sh "rustup install stable"
