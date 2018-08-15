@@ -4,7 +4,7 @@ pipeline {
         stage('Install') {
             steps {
                 echo "check1"
-                sh "curl https://sh.rustup.rs -sSf >> ."
+                sh "curl https://sh.rustup.rs -sSf >> rust.sh"
                 echo "check2"
                 sh "rust.sh -y"
                 ech0 "check22"
