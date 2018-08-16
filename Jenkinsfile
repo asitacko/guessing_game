@@ -9,7 +9,7 @@ pipeline {
                 sh "chmod 555 ../rust.sh"
                 echo "chmod"
                 sh "../rust.sh -y"
-                ech0 "check22"
+                echo "check22"
                 sh "rustup install stable"
                 echo "check3"
                 sh "rustup install nightly"
