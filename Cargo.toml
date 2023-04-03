@@ -6,7 +6,7 @@ authors = ["Asit"]
 [dependencies]
 rand = "0.3.14"
 chrono = "0.4"
-time = "~0.1.39"
+time = "~0.2.0"
 
 [dependencies.ring]
 version = "~0.13.0-alpha"
